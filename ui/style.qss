@@ -1,0 +1,194 @@
+/* Deep Charcoal & Electric Blue Theme */
+
+/* Base main window styling */
+#MainWindow {
+    background-color: #1A1C23; /* Deep Charcoal */
+}
+
+QWidget {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #EAEAEA;
+}
+
+QMessageBox {
+    background-color: #1A1C23;
+}
+QMessageBox QLabel {
+    color: #EAEAEA;
+}
+QMessageBox QPushButton {
+    background-color: #34495e;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    min-width: 80px;
+}
+QMessageBox QPushButton:hover {
+    background-color: #4A90E2;
+}
+
+/* Sidebar Styling */
+#Sidebar {
+    background-color: #121318; /* Darker than main window */
+    border-right: 1px solid #232530;
+}
+#AppTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4A90E2; /* Electric blue */
+}
+
+/* Navigation Items */
+#NavItem, #NavItemActive {
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 8px;
+}
+#NavItem {
+    color: #8C8F9E;
+}
+#NavItem:hover {
+    background-color: #1A1C25;
+    color: #EAEAEA;
+}
+#NavItemActive {
+    background-color: rgba(74, 144, 226, 0.15); /* Tinted blue */
+    color: #4A90E2;
+}
+
+/* Storage Widget Formatting */
+#StorageContainer {
+    background-color: #1A1C25;
+    border-radius: 12px;
+}
+#StorageTitle {
+    color: #EAEAEA;
+    font-size: 13px;
+    font-weight: 600;
+}
+#StorageValue {
+    color: #8C8F9E;
+    font-size: 11px;
+    margin-top: 2px;
+}
+#StorageBar {
+    background-color: #2A2D3C;
+    border-radius: 3px;
+}
+#StorageBar::chunk {
+    background-color: #4A90E2;
+    border-radius: 3px;
+}
+
+/* Main Panel Styling */
+#MainPanel {
+    background-color: #1A1C23;
+}
+#PanelTitle {
+    font-size: 26px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* Photo Grid */
+#PhotoGrid {
+    background-color: transparent;
+    border: none;
+    outline: none; /* removes focus rect */
+}
+#PhotoGrid::item {
+    background-color: #1F222B;
+    border-radius: 8px;
+    padding: 10px;
+    color: #8C8F9E;
+}
+#PhotoGrid::item:hover {
+    background-color: #262A35;
+    color: #EAEAEA;
+}
+
+/* Progress Area */
+#ProgressLabel {
+    color: #8C8F9E;
+    font-size: 13px;
+}
+#MainProgressBar {
+    background-color: #2A2D3C;
+    border-radius: 4px;
+}
+#MainProgressBar::chunk {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                      stop:0 #2E6BFF, stop:1 #4A90E2);
+    border-radius: 4px;
+}
+
+/* Download Button */
+#DownloadBtn {
+    background-color: #3498db; /* Vibrant blue as requested */
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+#DownloadBtn:hover {
+    background-color: #2980b9;
+}
+#DownloadBtn:pressed {
+    background-color: #21618c;
+}
+
+/* Cancel Button */
+#CancelBtn {
+    background-color: #34495e;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+#CancelBtn:hover {
+    background-color: #c0392b; /* Turns red on hover to indicate danger/stop */
+}
+
+/* Login Dialog Styling */
+#LoginDialog {
+    background-color: #1A1C23;
+    border-radius: 12px;
+}
+#LoginTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4A90E2;
+}
+#LoginSubtitle {
+    color: #8C8F9E;
+    font-size: 13px;
+}
+#PasswordInput {
+    background-color: #2A2D3C;
+    border: 1px solid #3A3D4C;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+#PasswordInput:focus {
+    border: 1px solid #4A90E2;
+}
+#LoginBtn {
+    background-color: #4A90E2;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 12px; /* More rounded as per request */
+    padding: 12px;
+    min-height: 40px; /* At least 40px height */
+    margin-top: 10px;
+}
+#LoginBtn:hover {
+    background-color: #357ABD;
+}
+#ErrorLabel {
+    color: #FF5E5E;
+    font-size: 12px;
+}

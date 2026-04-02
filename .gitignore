@@ -1,0 +1,38 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# Build and Distribution
+build/
+dist/
+*.spec
+build_log.txt
+
+# GCP Specific / Credentials
+credentials.json
+token.json
+client_secret_*.json
+*.pem
+*.key
+.env
+local.settings.json
+
+# Tool specific
+.vscode/
+.idea/
+
+# Logs
+*.log
+transfer_log.txt
