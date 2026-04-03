@@ -2,7 +2,11 @@
 
 CloudPhotoTransfer is a professional desktop application built with Python and PyQt6 designed to download large volumes of photos from Google Cloud Storage (GCS) buckets efficiently and securely.
 
-![Main Interface Placeholder](https://via.placeholder.com/800x450.png?text=CloudPhotoTransfer+UI+Screenshot)
+![alt text](<login image app descargas 2.jpg>)
+![alt text](<login image app descargas 3.jpg>)
+![alt text](<login image app descargas 4.jpg>)
+
+
 
 ## ✨ Features
 
@@ -93,7 +97,7 @@ Check the `dist/` directory for the final application.
 ---
 
 ## 📽️ Demo Video
-[Link to Video Placeholder]
+(https://youtu.be/ffMotFiJdD8)
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
